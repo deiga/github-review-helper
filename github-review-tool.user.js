@@ -11,7 +11,9 @@
 (function() {
     'use strict';
 
-    $(".file > .file-header > .file-info > .user-select-contain:contains('bower_components'), .file > .file-header > .file-info > .user-select-contain:contains('node_modules'), .file > .file-header > .file-info > .user-select-contain:contains('.json')")
+    $(".file > .file-header > .file-info > .user-select-contain:contains('bower_components') \
+      , .file > .file-header > .file-info > .user-select-contain:contains('node_modules') \
+      , .file > .file-header > .file-info > .user-select-contain:contains('.json')")
         .parent()
         .parent()
         .parent()
